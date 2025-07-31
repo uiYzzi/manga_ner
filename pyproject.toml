@@ -1,0 +1,15 @@
+[project]
+name = "manga-ner-project"
+version = "0.1.0"
+description = "A project to train an NER model for manga titles."
+requires-python = ">=3.9"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "transformers",
+    "datasets",
+    "seqeval",
+    "accelerate",
+]

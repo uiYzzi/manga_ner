@@ -1,0 +1,5 @@
+manga_ner_model/*
+!manga_ner_model/.gitkeep
+
+# Python virtual environment
+.venv/
