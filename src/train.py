@@ -12,7 +12,7 @@ from seqeval.metrics import classification_report
 
 # --- 1. 配置参数 ---
 # 预训练模型选择，mBERT 是一个多语言模型，对中文支持良好且轻量
-MODEL_NAME = "distilbert-base-multilingual-cased" 
+MODEL_NAME = "hfl/rbt3" 
 DATA_PATH = "./data/"  # 存放 train.txt, validation.txt, test.txt 的文件夹
 OUTPUT_DIR = "./manga_ner_model" # 训练好的模型保存路径
 
